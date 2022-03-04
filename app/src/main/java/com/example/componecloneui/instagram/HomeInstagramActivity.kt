@@ -66,24 +66,26 @@ fun ToolbarApp() {
         Row(
             Modifier
                 .weight(1.0f)
-                .align(Alignment.CenterVertically), horizontalArrangement = Arrangement.SpaceBetween) {
+                .align(Alignment.CenterVertically), horizontalArrangement = Arrangement.SpaceEvenly) {
             5
             Image(
                 painter = painterResource(R.drawable.ic_outline_add_box_24),
                 contentDescription = "Instagram Icon",
                 Modifier.align(Alignment.CenterVertically)
             )
+//            Spacer(modifier = Modifier.width(12.dp))
             Image(
                 painter = painterResource(R.drawable.ic_baseline_favorite_border_24),
                 contentDescription = "Instagram Icon",
                 Modifier.align(Alignment.CenterVertically)
             )
+//            Spacer(modifier = Modifier.width(12.dp))
             Image(
                 painter = painterResource(R.drawable.ic_facebook_messenger),
                 contentDescription = "Instagram Icon",
                 Modifier.align(Alignment.CenterVertically)
             )
-            Spacer(modifier = Modifier.width(10.dp))
+//            Spacer(modifier = Modifier.width(12.dp))
         }
     }
 }
