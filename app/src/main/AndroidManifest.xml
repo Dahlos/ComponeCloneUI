@@ -11,19 +11,21 @@
         android:theme="@style/Theme.ComponeCloneUI">
         <activity
             android:name=".instagram.HomeInstagramActivity"
-            android:exported="false"
-            android:label="@string/title_activity_home_instagram"
-            android:theme="@style/Theme.ComponeCloneUI" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/title_activity_home_instagram"
             android:theme="@style/Theme.ComponeCloneUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComponeCloneUI">
+
         </activity>
     </application>
 
